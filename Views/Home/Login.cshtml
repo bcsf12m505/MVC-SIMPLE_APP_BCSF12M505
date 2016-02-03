@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<form class="rcorners" action="/Home/VerifiedLogin" method="post">
+   
+        <label>Email   </label>
+        <input type="email" placeholder="Email" name="Email" required class="textboxStyle" />
+       
+        <br/>
+        <br/>
+        <label> Password</label>
+        <input type="password" placeholder="Password" name="Password" required class="textboxStyle" />  
+        <br/>
+        <br/>
+        <input type="submit" value="Login" style="text-align:center;height:40px;width:10%"></input>
+    
+           
+</form>

@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "SignUp";
+}
+
+<h2>SignUp</h2>
+<form  action="/Home/SignUpVerified" method="post">
+
+    <table>
+   <label>Name  </label>
+    <input type="text" placeholder=" Name" name="Name" required  />
+    <br/>
+        <br/>
+   
+    <label>Email  </label>
+    <input type="text" placeholder="Email" name="Email" required  />
+        <br/>
+        <br/>
+    
+    <label>Password </label>
+    <input type="password" placeholder="Password" name="Password" required  />
+    <br/>
+    <br/>
+    <input type="submit" value="signup" style="text-align:center;height:40px;width:10%">SignUp</input>
+        </table>
+</form>
